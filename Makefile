@@ -8,7 +8,7 @@ TEXCODE =
 #all: $(TEXCODE) $(DVIFILES) $(PSFILES) $(PDFFILES)
 all: $(PDFFILES)
 
-%.pdf: $(ALLTEXFILES) beamerinnerthemeFeather.sty beamerouterthemeFeather.sty beamercolorthemeFeather.sty beamerthemeFeather.sty
+%.pdf: $(ALLTEXFILES) beamerinnerthememodFeather.sty beamerouterthememodFeather.sty beamercolorthememodFeather.sty beamerthememodFeather.sty
 	pdflatex $*
 	pdflatex $*
 # 	pdftops $@ tmp.ps
